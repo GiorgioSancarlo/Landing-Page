@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: emoji;
 }
 .link-box {
   width: 100%;
@@ -10,7 +11,9 @@
   justify-content: space-between;
   align-items: center;
   padding-left: 100px;
-  padding-right: 70px;
+  padding-right: 10%;
+  padding-top: 2%;
+  font-size: 20px;
 }
 a {
   text-decoration: none;
@@ -23,20 +26,38 @@ body {
 }
 
 .box2 {
-  background-color: blueviolet;
+  align-items: center;
+  justify-content: center;
+  display: flex;
 }
 .box1 {
-  font-size: 27px;
-
+  font-size: 26px;
   font-family: ui-monospace;
   text-align: center;
   margin-top: 118px;
-  margin-right: 158px;
-  margin-left: 38px;
+  margin-right: 24%;
+  margin-left: 24%;
 }
 .p1 {
   font-size: 40px;
 }
 .p2 {
-  font-size: 60px;
+  font-size: 95px;
+}
+.btn {
+  color: white;
+  background-color: orange;
+}
+.subscribe {
+  display: flex;
+}
+.link1 {
+  font-size: 30px;
+}
+.btn1 {
+  padding: 10px 30px;
+  border-color: blue;
+  color: blue;
+  background-color: transparent;
+  border-radius: 8px;
 }
